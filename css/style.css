@@ -2,13 +2,64 @@
 /* CSS Document */
 body {
 	background-color: #FFFFFF;
-	font-family: Open Sans; 
+	font-family: Open Sans, serif; 
+	width: 100%;
 }
 
 #footer {
 	background-color: #333333;
 }
 
+/*Skal denne være medium-window?*/
 .box {
-	background-color: #EBEBEB;
+	background-color: red;
 }
+
+.menu           { margin: 5%;
+			}
+.bigWindow 	{ background-color: red;
+		  margin-top: 5%;
+		  margin-left: 10%;
+		  margin-right: 10%;
+		  width: 80%;
+			}
+.mediumWindow 	{ background-color: #EBEBEB;
+		  margin-left: 10%;
+		  margin-right: 10%;
+		  margin-top: 5%;
+		  width: 80%;
+		  overflow: auto;
+		/* use overflow auto here to prevent floting elements from "escaping" */
+			}
+.smallWindow 	{ background-color: green;
+		/* margin*2 + width = 30% */
+			
+		  margin: 2%;
+		  width: 28%;
+		  display: inline-block;
+	
+		  overflow: hidden;
+		  background-image: "https://v.cdn.vine.co/r/avatars/5DD7029B481045881651618009088_11ed3f40284.4.7.jpg?versionId=nuCFYm8MnD0bLN70jUrercH8TQwTeThS" no - repeat center center;
+
+			}
+/* Using inline herer causes a gap (one space key Wide) so we use float */
+
+.mediumText{ 
+		  width: 40%;
+		  float:left;
+		  overflow: hidden;
+		  margin:5%;
+		  
+}
+
+.mediumImage{
+		  width: 50%;
+		  float:left;
+		  overflow: hidden;
+}
+
+.smallImage{
+	float: top;
+	width: 100%;
+}
+
