@@ -63,3 +63,30 @@ body {
 	width: 100%;
 }
 
+.image-slider-container{ 
+	width: 200px;
+	height:auto;
+	background: black;
+
+}
+.image-slider-wrapper{ /* Consider scrapping */
+	width: auto;
+	height:auto;
+	overflow: hidden;
+}
+#image_slider{
+	position: relative;
+	overflow: hidden;
+	left:0;
+}
+#image_slider li{
+	position:relative;
+	max-width: 100%;
+	float:left;
+	list-style: none;
+	left: 0;
+}
+.imgbtn { /* Change color buttons and style */
+color: red;
+
+}
