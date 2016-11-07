@@ -15,18 +15,42 @@ PURPOSE: describe the Materials page and provide links to subpages history.html 
 		<div id="process" class="smallWindow">
 			<!-- Klassen process bestemmer str på bildene og utseendet til teksten, samt plassering -->
 			<div  class="smallImage">
-				<img src="img/Step1.jpg" alt="image step1"/>
+				<img src="img/Step1.jpg" alt="image step1" id="0"/>
 			</div>
 			<div class="smallImage">
-				<img src="img/Step2.jpg" alt="image step2"/>
+				<img src="img/Step2.jpg" alt="image step2" id="1"/>
 			</div>
 			<div  class="smallImage">
-				<img src="img/Step3.jpg" alt="image step3"/>
+				<img src="img/Step3.jpg" alt="image step3" id="2"/>
 			</div>
 			<div class="smallImage">
-				<img src="img/Step4.jpg" alt="image step4"/>
+				<img src="img/Step4.jpg" alt="image step4" id="3"/>
+			</div>
+			<div class="smallImage">
+				<img src="img/Step5.jpg" alt="image step5" id="4"/>
+			</div>
+			<div class="smallImage">
+				<img src="img/Step6.jpg" alt="image step6" id="5"/>
 			</div>
 		</div>
+		
+		<div id="the_modal" class= "modal">
+		
+		<span class="close" onclick= "document.getElementById('the_modal').style.display='none'">&times </span>
+		
+		
+		<div class="modal-content">
+			<img id="modalImage" > 
+			<span class="right" id="rightBtn">&#10095 </span>
+			<span class="left" id="leftBtn">&#10094 </span>
+		</div>
+		
+		
+		<div id="caption"> 
+
+		</div>
+	
+	</div>
 
 		<div id="environment" class="mediumWindow">
 			<div class="mediumImage" >
@@ -47,5 +71,6 @@ PURPOSE: describe the Materials page and provide links to subpages history.html 
 				<p>Lorem ipsum</p>
 			</div>
 		</div>
+	<script src="script/resize.js"> </script>
 	</body>
 </html>
