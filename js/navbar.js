@@ -1,11 +1,5 @@
 
-var navbarOptions=
-{
-    menuId: "navbar",
-    linkIdToMenuHtml: "navbarLink",
-    ......
-};
-function myFunction() {
+function navFunction() {
     var x = document.getElementById("myNavbar");
     if (x.className === "list_navbar") {
         x.className += " responsive";
