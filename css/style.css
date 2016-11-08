@@ -60,7 +60,7 @@ body {
 
 .smallImage{
 	float: top;
-	width: 100%;
+	width: auto;
 	transition: 0.3s;
 }
 
