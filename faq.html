@@ -2,10 +2,35 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="navbar.css">
 		<title>Home</title>
 	</head>
 	
 	<body>
+		
+		<nav id = "navbar">
+		<ul class = "list_navbar" id="myNavbar">
+		  <li><a class="active" href="home.html">Home</a></li>
+		  <li class="dropdown">
+		    <a href="about.html" class="dropbtn">About</a>
+		    <div class="dropdown-content">
+		      <a href="#about">Project</a>
+		      <a href="#about">Peder</a>
+		  <li class="dropdown">
+		    <a href="materials.html" class="dropbtn">Materials</a>
+		    <div class="dropdown-content">
+		      <a href="#materials">Process</a>
+		      <a href="environment.html">Environment</a>
+		      <a href="history.html">History</a>
+		    </div>
+		  </li>
+		  <li><a href="blog.html">Blog</a></li>
+		  <li><a href="inspiration.html">Inspiration</a></li>
+		  <li><a href="faq.html">FAQ</a></li>
+		  <li class="icon">
+		  <a href="javascript:void(0);" style="font-size:15px;" onclick="navFunction()">&#9776;</a>
+		</ul>
+		</nav>
 		<div id="faq" class="largeWindow">
 			<div id="heading">
 				<h1> Frequently Asked Questions</h1>
