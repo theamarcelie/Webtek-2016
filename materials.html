@@ -8,10 +8,34 @@ PURPOSE: describe the Materials page and provide links to subpages history.html 
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="text/css" rel="stylesheet" href="css/navbar.css">
 		<title>Materials</title>
 	</head>
 
 	<body>
+		<nav id = "navbar">
+		<ul class = "list_navbar" id="myNavbar">
+		  <li><a class="active" href="home.html">Home</a></li>
+		  <li class="dropdown">
+		    <a href="about.html" class="dropbtn">About</a>
+		    <div class="dropdown-content">
+		      <a href="#about">Project</a>
+		      <a href="#about">Peder</a>
+		  <li class="dropdown">
+		    <a href="materials.html" class="dropbtn">Materials</a>
+		    <div class="dropdown-content">
+		      <a href="#materials">Process</a>
+		      <a href="environment.html">Environment</a>
+		      <a href="history.html">History</a>
+		    </div>
+		  </li>
+		  <li><a href="blog.html">Blog</a></li>
+		  <li><a href="inspiration.html">Inspiration</a></li>
+		  <li><a href="faq.html">FAQ</a></li>
+		  <li class="icon">
+		  <a href="javascript:void(0);" style="font-size:15px;" onclick="navFunction()">&#9776;</a>
+		</ul>
+		</nav>
 		<div id="process" class="smallWindow">
 			<!-- Klassen process bestemmer str på bildene og utseendet til teksten, samt plassering -->
 			<div>
@@ -22,15 +46,6 @@ PURPOSE: describe the Materials page and provide links to subpages history.html 
 			</div>
 			<div>
 				<img class="smallImage" src="images/Step3.jpg" alt="step 3" id="2"/>
-			</div>
-			<div>
-				<img class="smallImage" src="images/Step4.jpg" alt="step 4" id="3"/>
-			</div>
-			<div>
-				<img class="smallImage" src="images/Step5.jpg" alt="step 5" id="4"/>
-			</div>
-			<div>
-				<img class="smallImage" src="images/Step6.jpg" alt="step 6" id="5"/>
 			</div>
 		</div>
 		</div>
@@ -55,7 +70,7 @@ PURPOSE: describe the Materials page and provide links to subpages history.html 
 
 		<div id="environment" class="mediumWindow">
 			<div class="mediumImage" >
-				<img src="images/Environment.jpg" alt="image environment">
+				<img src="images/Testing1.jpg" alt="image environment">
 			</div>
 			<div class="mediumText">
 				<h1>Environment</h1>
@@ -65,7 +80,7 @@ PURPOSE: describe the Materials page and provide links to subpages history.html 
 
 		<div id="history" class="mediumWindow">
 			<div  class="mediumImage">
-				<img src="images/History.jpg" alt="History image">
+				<img src="images/laksebenk.jpg" alt="History image">
 			</div>
 			<div class="mediumText">
 				<h1>History</h1>
