@@ -47,7 +47,7 @@ img { width: 100%;}
 			}
 /* Using inline herer causes a gap (one space key Wide) so we use float */
 
-.mediumText, .LargeText{ 
+.mediumText, .largeText{ 
 	
 		  width: 40%;
 		  float:left;
