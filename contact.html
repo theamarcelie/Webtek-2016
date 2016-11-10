@@ -1,0 +1,70 @@
+<!--
+FILE NAME: materials.html
+WRITTEN BY: Idun Ramstad
+WHEN: October 2016
+PURPOSE: describe the Materials page and provide links to subpages history.html and environment.html -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="text/css" rel="stylesheet" href="css/navbar.css">
+		<title>Materials</title>
+	</head>
+
+	<body>
+	<nav id = "navbar">
+		<ul class = "list_navbar" id="myNavbar">
+ 		<li><a class="active" href="home.html">Home</a></li>
+  			<li class="dropdown">
+    			<a href="about.html" class="dropbtn">About</a>
+   			<div class="dropdown-content">
+   			<a href="about.html">Project</a>
+    			<a href="about.html">Peder</a> </div></li>
+ 		<li class="dropdown">
+   			<a href="materials.html" class="dropbtn">Materials</a>
+   			<div class="dropdown-content">
+     			<a href="materials.html">Process</a>
+   			<a href="environment.html">Environment</a>
+     			<a href="history.html">History</a></div></li>
+ 		<li><a href="inspiration.html">Inspiration</a></li>
+  		<li><a href="faq.html">FAQ</a></li>
+  		<li class="icon"> <a href="javascript:void(0);" style="font-size:15px;" onclick="navFunction()">&#9776;</a> </li>
+		
+		</ul>
+	</nav>
+
+		<div id="page-wrapper">
+	  <h1>AJAX Contact Form Demo</h1>
+
+	  <div id="form-messages"></div>
+		
+		<form id="ajax-contact" method="post" action="mailer.php">
+			<div class="field">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+
+			<div class="field">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+
+			<div class="field">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+			</div>
+
+			<div class="field">
+				<button type="submit">Send</button>
+			</div>
+		</form>
+	</div>
+	
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="app.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/resize.js"> </script>
+
+	</body>
+</html>
