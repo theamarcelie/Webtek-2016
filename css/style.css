@@ -47,7 +47,8 @@ img { width: 100%;}
 			}
 /* Using inline herer causes a gap (one space key Wide) so we use float */
 
-.mediumText{ 
+.mediumText, .LargeText{ 
+	
 		  width: 40%;
 		  float:left;
 		  overflow: hidden;
@@ -55,10 +56,18 @@ img { width: 100%;}
 		  
 }
 
-.mediumImage{
+
+
+.mediumImage {
 		  width: 50%;
 		  float:left;
 		  overflow: hidden;
+}
+
+.mediumImageRight {
+	width: 50%;
+	float:right;
+	overflow: hidden;
 }
 
 .smallImage{
