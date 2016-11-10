@@ -19,7 +19,7 @@ img { width: 100%;}
 
 .menu           { margin: 5%;
 			}
-.largeWindow 	{ background-color: red;
+.largeWindow 	{ background-color: #EBEBEB;
 		  margin-top: 5%;
 		  margin-left: 10%;
 		  margin-right: 10%;
@@ -34,7 +34,7 @@ img { width: 100%;}
 		  overflow: auto;
 		/* use overflow auto here to prevent floting elements from "escaping" */
 			}
-.smallWindow 	{ background-color: green;
+.smallWindow 	{ background-color: #EBEBEB;
 		/* margin*2 + width = 30% */
 		  overflow: hidden;
 		  margin: 2%;
