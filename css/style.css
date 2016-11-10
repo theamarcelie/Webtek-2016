@@ -47,13 +47,21 @@ img { width: 100%;}
 			}
 /* Using inline herer causes a gap (one space key Wide) so we use float */
 
-.mediumText, .largeText{ 
+.mediumText { 
 	
 		  width: 40%;
 		  float:left;
 		  overflow: hidden;
 		  margin:5%;
 		  
+}
+
+.largeText {
+	
+	width: 60%;
+	overflow: hidden;
+	margin: 20%;
+	text-align:center;
 }
 
 
