@@ -15,7 +15,7 @@ body {
 	background-color: red;
 }
 
-img { width: auto;}
+img { width: 100%;}
 
 .menu           { margin: 5%;
 			}
