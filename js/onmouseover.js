@@ -1,4 +1,4 @@
-$('#zoomimg').mouseenter(function() 
+$('#1').mouseenter(function() 
        {
        
           $(this).css("cursor","pointer");
@@ -7,7 +7,7 @@ $('#zoomimg').mouseenter(function()
 
        });
     
-    $('#zoomimg').mouseleave(function()
+    $('#1').mouseleave(function()
       {   
           $(this).animate({width: "28%"}, 'slow');
    });
