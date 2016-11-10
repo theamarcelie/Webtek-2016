@@ -1,11 +1,13 @@
-function imageEnlarge() {
- //document.getElementById('1').style.height="20%";
- document.getElementById('1').style.width="20%";
- document.getElementById('1').style.position='absolute';
- }
-function imageReset() {
+$('#zoomimg').mouseenter(function() 
+       {
+       
+          $(this).css("cursor","pointer");
+           $(this).animate({width: "50%", height: "50%"}, 'slow');
 
- //document.getElementById('1').style.height="80%";
- document.getElementById('1').style.width="0%";
- document.getElementById('1').style.position='absolute';
- }
+
+       });
+    
+    $('#zoomimg').mouseleave(function()
+      {   
+          $(this).animate({width: "28%"}, 'slow');
+   });
