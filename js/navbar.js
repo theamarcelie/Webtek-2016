@@ -7,3 +7,4 @@ function navFunction() {
         x.className = "list_navbar";
     }
 }
+
