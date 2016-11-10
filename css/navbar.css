@@ -27,7 +27,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 li a:hover, .dropdown:hover .dropbtn {
-    color: MediumVioletRed;
+    color: #FF8C69;
 }
 li.dropdown {
     display: inline-block;
@@ -56,6 +56,7 @@ ul.list_navbar li.icon {display: none;}
 @media screen and (max-width:670px) {
   ul.list_navbar li:not(:first-child) {display: none;}
   ul.list_navbar li.icon {
+    
     float: right;
     display: inline-block;
   }
