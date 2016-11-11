@@ -179,7 +179,11 @@ img {
 
 }
 
-.mediumImage:hover {
+#history:hover {
+	opacity: 0.5;
+}
+
+#environment:hover {
 	opacity: 0.5;
 }
 
