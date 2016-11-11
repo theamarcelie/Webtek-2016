@@ -32,7 +32,7 @@ img { width: 100%;}
 .smallWindow 	{ background-color: #EBEBEB;
 		/* margin*2 + width = 30% */
 		  overflow: hidden;
-		  margin: 2%;
+		  margin: -2%;
 		  width: 28%;
 		  display: inline-block;
 	
