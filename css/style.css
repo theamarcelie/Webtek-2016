@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+
+
 body {
+	margin-bottom: 10px;
 	background-color: #FFFFFF;
 	font-family: Open Sans, serif; 
 	width: 100%;
@@ -15,15 +18,18 @@ footer {
 
 footer p {
 	
-	margin-top: 10%
 	width: 30%;
 	margin: 1% 5% 1% 5%;
 	float: left;
 }
 
-a{color: #FF8C69;}
+a{
+	color: #FF8C69;
+}
 
-img { width: 100%;}
+img { 
+	width: 100%;
+}
 
 .menu           { margin: 5%;
 			}
