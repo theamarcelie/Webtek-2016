@@ -54,7 +54,6 @@ img {
 	margin-top: 5%;
 	width: 100%;
 	overflow: auto;
-	padding: 0;
 
 		/* use overflow auto here to prevent floting elements from "escaping" */
 			}
@@ -170,13 +169,17 @@ img {
 }
 
 .largeImage {
-	margin-bottom: 0px;
+	padding: 0;
+
+
 }
 
 .mediumImage {
 	width: 50%;
 	float:left;
 	overflow: hidden;
+	padding: 0;
+
 
 }
 
