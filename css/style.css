@@ -67,6 +67,16 @@ img {
 			}
 /* Using inline herer causes a gap (one space key Wide) so we use float */
 
+.largeText {
+	
+	background-color: #EBEBEB;
+	padding: 20;
+	width: 60%;
+	overflow: hidden;
+	margin: 20%;
+	text-align:center;
+ }
+
 .mediumText { 
 	
 	width: 40%;
@@ -122,18 +132,6 @@ img {
 	
 	
 }
-
-
-
-.largeText {
-	
-	background-color: #EBEBEB;
-	width: 60%;
-	overflow: hidden;
-	margin: 20%;
-	text-align:center;
- }
-
 
 
 .mediumImage {
