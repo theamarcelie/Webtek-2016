@@ -137,7 +137,8 @@ img {
 
 
 .mediumImage {
-		  width: 50%;
+		  /*width: 50%;*/
+		  heigth:100%;
 		  float:left;
 		  overflow: hidden;
 }
