@@ -43,10 +43,11 @@ img { width: 100%;}
 
 .mediumText { 
 	
-		  width: 40%;
-		  float:left;
-		  overflow: hidden;
-		  margin:5%;
+	width: 40%;
+	float:left;
+	overflow: hidden;
+	margin:5%;
+	font-size: 11;
 		  
 }
 
