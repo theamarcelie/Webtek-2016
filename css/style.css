@@ -277,7 +277,7 @@ input {
   width: 100%;
   padding: 0.5em 0.5em;
   font-size: 1.2em;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   border: 1px solid #D9D9D9;
 }
 
@@ -286,7 +286,7 @@ textarea {
   height: 200px;
   padding: 0.5em 0.5em;
   font-size: 1.2em;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   border: 1px solid #D9D9D9;
 }
 
