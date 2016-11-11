@@ -34,19 +34,23 @@ img {
 	margin: 5%;
 			
 }
-.largeWindow 	{ margin-top: 5%;
-		  margin-left: 10%;
-		  margin-right: 10%;
-		  width: 80%;
-		  overflow: auto;
-	margin-bottom: 5%;
+.largeWindow 	{ 
+	
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	overflow: auto;margin-bottom: 5%;
+	
 			}
-.mediumWindow 	{ background-color: #EBEBEB;
-		  margin-left: 10%;
-		  margin-right: 10%;
-		  margin-top: 5%;
-		  width: 80%;
-		  overflow: auto;
+.mediumWindow 	{ 
+	
+	background-color: #EBEBEB;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	width: 80%;
+	overflow: auto;
 	margin-bottom: 5%;
 		/* use overflow auto here to prevent floting elements from "escaping" */
 			}
@@ -68,7 +72,7 @@ img {
 	width: 40%;
 	float:left;
 	overflow: hidden;
-	margin-left:5%;
+	margin:5%;
 	font-size: 10;
 		  
 }
@@ -78,7 +82,7 @@ img {
 	width: 90%;
 	float:left;
 	overflow: hidden;
-	margin-left:5%;
+	margin:5%;
 	
 }
 
@@ -89,7 +93,7 @@ img {
 		width: 40%;
 		float:left;
 		overflow: hidden;
-		margin-left:2%;
+		margin:2%;
 		font-size: 10;
 	}
 	
@@ -112,7 +116,7 @@ img {
 		width: 80%;
 		float:left;
 		overflow: auto;
-		margin-left:5%;
+		margin:5%;
 		font-size: 10;
 	}
 	
