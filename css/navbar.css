@@ -94,7 +94,7 @@ li.dropdown {
 første elementet i listan og ikonet synes */
 
 ul.list_navbar li.icon {display: none;}
-@media screen and (max-width:670px) {
+@media screen and (max-width:700px) {
   ul.list_navbar li:not(:first-child) {display: none;}
   ul.list_navbar li.icon {
     
@@ -105,7 +105,7 @@ ul.list_navbar li.icon {display: none;}
 /* Lager de andre elementene som underelement av ikonet, og plasserer på i en 
 horisontal linje */
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:700px) {
   ul.list_navbar.responsive {position: relative;}
   ul.list_navbar.responsive li.icon {
     position: absolute;
