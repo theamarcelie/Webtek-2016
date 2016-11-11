@@ -29,15 +29,18 @@ ul {
     overflow: hidden;
     background-color: #333333;
     text-align: center; 
-    width: 80%;
+  
 }
 
 /* Places the elements of the list on a horizontal line,
 aligns the elements to the canter*/
 
+
+}
 li {
   display: inline-block;
   text-align:center;
+   width: 80%;
 }
 
 /* Sets the colour to the list elements in the navbar to white,  */
