@@ -1,44 +1,44 @@
 $(function() {
 
-	// Get the form.
+	// Get form 
 	var form = $('#ajax-contact');
 
-	// Get the messages div.
+	// get message div 
 	var formMessages = $('#form-messages');
 
-	// Set up an event listener for the contact form.
+	// Setter opp en eventlytter for contact form 
 	$(form).submit(function(e) {
-		// Stop the browser from submitting the form.
+		// Stopper browseren for å submitte contact formen 
 		e.preventDefault();
 
-		// Serialize the form data.
+		// Serialize form dataen
 		var formData = $(form).serialize();
 
-		// Submit the form using AJAX.
+		// Sender formen ved bruk av AJAX.
 		$.ajax({
 			type: 'POST',
 			url: $(form).attr('action'),
 			data: formData
 		})
 		.done(function(response) {
-			// Make sure that the formMessages div has the 'success' class.
+			// sjekker om formMessages div har'success' klassen.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
 
-			// Set the message text.
+			// SSetter meldingsteksten
 			$(formMessages).text(response);
 
-			// Clear the form.
+			// klarerer formen 
 			$('#name').val('');
 			$('#email').val('');
 			$('#message').val('');
 		})
 		.fail(function(data) {
-			// Make sure that the formMessages div has the 'error' class.
+			// Sjekker om formMessages div har 'error' klessen.
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
 
-			// Set the message text.
+			// Setter meldingsteksten
 			if (data.responseText !== '') {
 				$(formMessages).text(data.responseText);
 			} else {
