@@ -76,25 +76,25 @@ img { width: 100%;}
 
 @media screen and (max-width:900px) {
 	
-	.mediumWindow { 
-		display: none;
-	}
-	
-	.mediumImage {
-		
-		  width: 80%;
-		  float:left;
-		  overflow: hidden;
-	}
-
-	
-	
-	.mediumText{
+	.mediumWindow 	{ 
 		
 		background-color: #EBEBEB;
 		margin-left: 10%;
 		margin-right: 5%;
 		margin-top: 5%;
+		width: 80%;
+		overflow: auto;
+		
+			}
+	
+	.mediumImage {
+		
+		  width: 100%;
+		  float:left;
+		  overflow: hidden;
+	}
+
+	.mediumText{
 		
 		width: 80%;
 		float:left;
