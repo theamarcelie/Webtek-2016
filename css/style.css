@@ -298,19 +298,19 @@ textarea {
   border: 1px solid #D9D9D9;
 }
 
-button {
+button {/*
   /*display: inline-block;
-  border-radius: 3px;*/
+  border-radius: 3px;
   border: none;
   font-size: 0.9rem;
-  /*padding: 0.5rem 0.8em;*/
+  /*padding: 0.5rem 0.8em;
   background: #FF8C69;
   color: white;
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
   margin: none;
   width: 100%;
-  text-align: center;
+  text-align: center; */
 }
 
 button:hover, button:focus {
