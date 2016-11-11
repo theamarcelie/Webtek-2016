@@ -71,9 +71,7 @@ img { width: 100%;}
 	.mediumImage {
 
 		width: 100%;
-		float:center;
-		overflow: hidden;
-		margin:0%;
+
 	}
 
 	.mediumText{
