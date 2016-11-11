@@ -115,11 +115,7 @@ img { width: 100%;}
 		  overflow: hidden;
 }
 
-.mediumImageRight {
-	width: 50%;
-	float:right;
-	overflow: hidden;
-}
+
 
 .smallImage{
 	float: top;
