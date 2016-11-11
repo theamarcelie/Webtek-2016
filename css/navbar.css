@@ -28,7 +28,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333333;
-    text-align: center;
+    text-align: center; 
+    width: 80%;
 }
 
 /* Places the elements of the list on a horizontal line,
