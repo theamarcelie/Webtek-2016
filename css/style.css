@@ -40,9 +40,11 @@ img {
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
-	overflow: auto;margin-bottom: 5%;
+	overflow: auto;
+	margin-bottom: 5%;
 	
-			}
+}
+
 .mediumWindow 	{ 
 	
 	background-color: #EBEBEB;
@@ -51,7 +53,8 @@ img {
 	margin-top: 5%;
 	width: 80%;
 	overflow: auto;
-	/*margin-bottom: 5%;*/
+	margin-bottom: 5%;
+
 		/* use overflow auto here to prevent floting elements from "escaping" */
 			}
 .smallWindow 	{ 
