@@ -10,11 +10,6 @@ body {
 	background-color: #333333;
 }
 
-/*Skal denne være medium-window?*/
-.box {
-	background-color: red;
-}
-
 img { width: 100%;}
 
 .menu           { margin: 5%;
