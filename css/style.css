@@ -24,7 +24,7 @@ footer p {
 	float: left;
 }
 
-a{
+a {
 	color: #FF8C69;
 	text-decoration: none;
 }
@@ -168,13 +168,14 @@ img {
 	
 }
 
-
+.largeImage {
+	margin-bottom: 0px;
+}
 
 .mediumImage {
 	width: 50%;
 	float:left;
 	overflow: hidden;
-	height: 100%;
 
 }
 
@@ -304,7 +305,9 @@ img {
 	transition: 0.3s;
 }
 
-.close:hover, .close:focus {
+.close:
+
+, .close:focus {
 	color: #bbb;
 	text-decoration: none;
 	cursor: pointer;
