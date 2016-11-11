@@ -42,9 +42,9 @@ li {
 /* Sets the colour to the list elements in the navbar to white,  */
 
 li a, .dropbtn {
-   /* display: inline-block;*/
+    display: inline-block;
     color: white;
-    /*text-align: center;*/
+    text-align: center;
     padding: 20px 35px;
     text-decoration: none;
 }
@@ -55,9 +55,9 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF8C69;
 }
 
-/*li.dropdown {
+li.dropdown {
     display: inline-block;
-}*/
+}
 
 /* Styles the background colours of the dropdown in the navbar */
 
