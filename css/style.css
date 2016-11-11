@@ -79,6 +79,8 @@ img { width: 100%;}
 	.mediumImage {
 
 		width: 100%;
+		overflow: auto;
+
 
 	}
 
