@@ -1,3 +1,13 @@
+/*
+FILE NAME: navbar.css
+WRITTEN BY: Thea Togstad
+WHEN:  November 2016
+PURPOSE:  the css for the navigation bar
+*/
+
+
+/* Sets the font to Open Sans, stretches the navigation 
+   bar so that it covers the whole top of the page */
 
 body {
   font-family: Open Sans, sans-serif;
@@ -7,6 +17,11 @@ body {
   margin-bottom: 0px;
   margin-left: 0px;
 }
+
+/* Sets the colour of the navbar to a dark grey, 
+aligns the list to the center of the navbar, 
+removes margins and padding */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,24 +30,37 @@ ul {
     background-color: #333333;
     text-align: center;
 }
+
+/* Places the elements of the list on a horizontal line,
+aligns the elements to the canter*/
+
 li {
   display: inline-block;
   text-align:center;
 }
+
+/* Sets the colour to the list elements in the navbar to white,  */
+
 li a, .dropbtn {
-    display: inline-block;
+   /* display: inline-block;*/
     color: white;
-    text-align: center;
+    /*text-align: center;*/
     padding: 20px 35px;
     text-decoration: none;
 }
+
+/* On hover, the element should be a salmon pink colour */
+
 li a:hover, .dropdown:hover .dropbtn {
     color: #FF8C69;
 }
 
-li.dropdown {
+/*li.dropdown {
     display: inline-block;
-}
+}*/
+
+/* Styles the background colours of the dropdown in the navbar */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -40,6 +68,9 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+/* Styles the text colours of the dropdown in the navbar */
+
 .dropdown-content a {
     color: white;
     padding: 12px 30px;
@@ -47,12 +78,21 @@ li.dropdown {
     display: block;
     text-align: left;
 }
+
+/* Styles the background colours of the dropdown in the navbar on hover */
+
 .dropdown-content a:hover {
   background-color: darkgrey;
 }
+
+/* Styles the background colours of the dropdown in the navbar */
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Lager et unntak som sier at dersom siden er mindre enn 670 px, skal kun det 
+første elementet i listan og ikonet synes */
+
 ul.list_navbar li.icon {display: none;}
 @media screen and (max-width:670px) {
   ul.list_navbar li:not(:first-child) {display: none;}
@@ -62,6 +102,9 @@ ul.list_navbar li.icon {display: none;}
     display: inline-block;
   }
 }
+/* Lager de andre elementene som underelement av ikonet, og plasserer på i en 
+horisontal linje */
+
 @media screen and (max-width:670px) {
   ul.list_navbar.responsive {position: relative;}
   ul.list_navbar.responsive li.icon {
