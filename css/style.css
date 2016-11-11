@@ -168,6 +168,10 @@ img {
 	
 }
 
+img:hover { 
+  opacity: 1; 
+}
+
 
 .mediumImage {
 	width: 50%;
