@@ -120,12 +120,17 @@ img { width: 100%;}
 	list-style: none;
 	left: 0;
 }
-.imgbtn { /* Change color buttons and style */
-color: red;
-width: 10px;
-
-
+.imgbtn {
+    width: 100px;
+    height: 25px;
+    color: red ;
+    background-color: Transparent;
+    border: none;
+    outline:none;
 }
+
+/* text align here to center buttons */
+#button {text-align: center;}
 
 .smallImage:hover {
 	opacity:0.7;
