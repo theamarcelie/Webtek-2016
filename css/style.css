@@ -291,8 +291,8 @@ textarea {
 }
 
 button {
-  display: inline-block;
-  /*border-radius: 3px;*/
+  /*display: inline-block;
+  border-radius: 3px;*/
   border: none;
   font-size: 0.9rem;
   /*padding: 0.5rem 0.8em;*/
