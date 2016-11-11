@@ -74,28 +74,7 @@ img { width: 100%;}
 	
 }
 
-@media screen and (max-width:600px) {
-	
-	.mediumText{
-		
-		width: 40%;
-		float:left;
-		overflow: hidden;
-		margin:2%;
-		font-size: 10;
-	}
-	
-	.mediumWindow 	{ 
-		
-		background-color: #EBEBEB;
-		margin-left: 10%;
-		margin-right: 5%;
-		margin-top: 5%;
-		width: 40%;
-		overflow: auto;
-			}
-	
-}
+
 
 .largeText {
 	
