@@ -6,9 +6,17 @@ body {
 	width: 100%;
 }
 
-footer {
+footer {color:white; 
+	overflow: auto; 
 	background-color: #333333;
 }
+
+footer p {width: 30%;
+	  margin: 1% 5% 1% 5%;
+	  float: left;
+}
+
+a{color: #FF8C69;}
 
 img { width: 100%;}
 
