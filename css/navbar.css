@@ -16,6 +16,7 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  width: 80%;
 }
 
 /* Sets the colour of the navbar to a dark grey, 
@@ -40,7 +41,6 @@ aligns the elements to the canter*/
 li {
   display: inline-block;
   text-align:center;
-   width: 80%;
 }
 
 /* Sets the colour to the list elements in the navbar to white,  */
