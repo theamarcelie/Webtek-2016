@@ -48,7 +48,7 @@ img { width: 100%;}
 
 .mediumText { 
 	
-		  width: 40%;
+/		  width: 40%;
 		  float:left;
 		  overflow: hidden;
 		  margin:5%;
@@ -57,11 +57,12 @@ img { width: 100%;}
 
 .largeText {
 	
+
 	width: 60%;
 	overflow: hidden;
 	margin: 20%;
 	text-align:center;
-}
+ }
 
 
 
@@ -82,7 +83,7 @@ img { width: 100%;}
 	width: 100%;
 	transition: 0.3s;
 }
-
+/* Set width = image width */
 .image-slider-container{ 
 	width: 200px;
 	height:auto;
