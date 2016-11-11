@@ -176,6 +176,10 @@ img {
 	overflow: hidden;
 }
 
+.mediumImage:hover {
+	opacity: 0.5;
+}
+
 .smallImage{
 	float: top;
 	width: 100%;
