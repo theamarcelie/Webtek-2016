@@ -6,6 +6,8 @@ body {
 	background-color: #FFFFFF;
 	font-family: Open Sans, serif; 
 	width: 100%;
+	font-size: 10;
+
 }
 
 footer {
@@ -93,7 +95,6 @@ img {
 	float:left;
 	overflow: hidden;
 	margin:5%;
-	font-size: 10;
 		  
 }
 
@@ -114,7 +115,6 @@ img {
 		float:left;
 		overflow: hidden;
 		margin:2%;
-		font-size: 10;
 	}
 	
 	
@@ -137,7 +137,6 @@ img {
 		float:left;
 		overflow: auto;
 		margin:5%;
-		font-size: 10;
 	}
 	
 	
