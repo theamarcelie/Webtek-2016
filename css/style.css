@@ -50,6 +50,7 @@ img {
 .mediumWindow 	{ 
 	
 	background-color: #EBEBEB;
+	margin-top: 5%;
 	width: 100%;
 	overflow: auto;
 
@@ -113,6 +114,7 @@ img {
 		overflow: hidden;
 		margin:2%;
 	}
+
 	
 	
 }
@@ -142,7 +144,6 @@ img {
 
 .mediumImage {
 	width: 50%;
-	height: 100%;
 	float:left;
 	overflow: hidden;
 }
