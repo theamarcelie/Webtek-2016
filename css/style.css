@@ -57,18 +57,45 @@ img {
 
 		/* use overflow auto here to prevent floting elements from "escaping" */
 			}
-.smallWindow 	{ 
+.smallWindowLeft { 
 	
 	background-color: #EBEBEB;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 5%;
 	margin-top: 5%;
-	width: 20%;
+	width: 30%;
+	float: left;
 	overflow: auto;
-	margin-bottom: 5%;
 		  
 			}
-/* Using inline herer causes a gap (one space key Wide) so we use float */
+
+.smallWindowMiddle  { 
+	
+	background-color: #EBEBEB;
+	margin-top: 5%;
+	width: 30%;
+	float: left;
+	overflow: auto;
+		  
+			}
+			
+.smallWindowRight	{ 
+	
+	background-color: #EBEBEB;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 30%;
+	float: right;
+	overflow: auto;
+		  
+			}
+
+.smallWindowWrapper	{ 
+	
+	background-color: #EBEBEB;
+	margin: auto;
+	max-width: 1080px;
+		  
+			}
 
 .largeText {
 	
