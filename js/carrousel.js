@@ -28,7 +28,7 @@ for (i = 0; i < li_number-1; i++){				//-1 here because you dont want cloned las
 	var btn = document.createElement("input");        	// Create a <button> element
 	btn.setAttribute("type","button");
 	btn.setAttribute("id","n"+i);
-	btn.setAttribute("value","("+(i+1)+")");
+	btn.setAttribute("value","\u260C");
 	btn.setAttribute("class","imgbtn");		
 	btn.onclick = function(){click(this.id)};  //place function in function to pass arguments
 	document.getElementById("button").appendChild(btn);                    	// Append <button> to <body>
