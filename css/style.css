@@ -67,7 +67,6 @@ img { width: 100%;}
 
 @media screen and (max-width:950px) {
 	
-
 	
 	.mediumImage {
 
@@ -79,9 +78,9 @@ img { width: 100%;}
 
 	.mediumText{
 		
-		width: 100%;
+		width: 80%;
 		float:left;
-		overflow: hidden;
+		overflow: auto;
 		margin:5%;
 		font-size: 10;
 	}
