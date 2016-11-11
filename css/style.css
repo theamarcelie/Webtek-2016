@@ -83,11 +83,13 @@ img { width: 100%;}
 	width: 100%;
 	transition: 0.3s;
 }
+/* text align here to center buttons */
 /* Set width = image width */
 .image-slider-container{ 
 	width: 200px;
 	height:auto;
 	background: black;
+	text-align: center;
 
 }
 .image-slider-wrapper{ /* Consider scrapping */
@@ -109,6 +111,8 @@ img { width: 100%;}
 }
 .imgbtn { /* Change color buttons and style */
 color: red;
+width: 10px;
+
 
 }
 
