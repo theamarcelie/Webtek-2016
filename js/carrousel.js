@@ -59,7 +59,7 @@ function slider(){
 			}
 		});
 
-//sends a list of arguments to animate (maby delete/change this??)
+//sends a list of arguments to animate 
 }
 
 //runs animate every "delay variable"
@@ -86,7 +86,7 @@ function click(Nid){
 	var str = Nid.slice(1);
 	var num = Number(str);
 	current = num+0.2;
-	clearTimeout(imgP);
+	clearTimeout(imgP);	//turns off the slider and starts a new one at the indicated img
 	clearInterval(id);
 	slider();
 	
