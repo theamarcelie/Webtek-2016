@@ -210,12 +210,12 @@ color: red;
 	cursor: pointer;
 }
 
-/*Contact form*/
+/*Contact form
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 html {/*
   font-family: Helvetica, Arial, sans-serif;
