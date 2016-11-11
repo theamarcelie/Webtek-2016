@@ -17,7 +17,6 @@ footer {
 
 footer p {
 	
-	margin-top: 5%;
 	width: 30%;
 	margin: 1% 5% 1% 5%;
 	float: left;
@@ -31,13 +30,16 @@ img {
 	width: 100%;
 }
 
-.menu           { margin: 5%;
-			}
+.menu           { 
+	margin: 5%;
+			
+}
 .largeWindow 	{ margin-top: 5%;
 		  margin-left: 10%;
 		  margin-right: 10%;
 		  width: 80%;
 		  overflow: auto;
+	margin-bottom: 10%;
 			}
 .mediumWindow 	{ background-color: #EBEBEB;
 		  margin-left: 10%;
@@ -45,6 +47,7 @@ img {
 		  margin-top: 5%;
 		  width: 80%;
 		  overflow: auto;
+	margin-bottom: 10%;
 		/* use overflow auto here to prevent floting elements from "escaping" */
 			}
 .smallWindow 	{ 
@@ -55,6 +58,7 @@ img {
 	margin-top: 5%;
 	width: 20%;
 	overflow: auto;
+	margin-bottom: 10%;
 		  
 			}
 /* Using inline herer causes a gap (one space key Wide) so we use float */
