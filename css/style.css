@@ -77,6 +77,12 @@ img {
 	text-align:center;
  }
 
+.largeText p {
+	
+    display: inline-block;
+    text-align: left;
+}
+
 .mediumText { 
 	
 	width: 40%;
