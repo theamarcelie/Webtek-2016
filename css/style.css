@@ -298,7 +298,10 @@ textarea {
   border: 1px solid #D9D9D9;
 }
 
-button {/*
+button {
+	width: 100%;
+	color: white;
+	/*
   /*display: inline-block;
   border-radius: 3px;
   border: none;
