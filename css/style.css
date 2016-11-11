@@ -107,17 +107,13 @@ img { width: 100%;}
 /* text align here to center buttons */
 /* Set width = image width */
 .image-slider-container{ 
-	width: 200px;
-	height:auto;
-	background: black;
-	text-align: center;
+	position: relative;
+	width: 1080px;
+	background: black; 
+	overflow: hidden; margin: auto;
 
 }
-.image-slider-wrapper{ /* Consider scrapping */
-	width: auto;
-	height:auto;
-	overflow: hidden;
-}
+
 #image_slider{
 	position: relative;
 	overflow: hidden;
