@@ -47,7 +47,7 @@ img { width: 100%;}
 	float:left;
 	overflow: hidden;
 	margin:5%;
-	font-size: 11;
+	font-size: 10;
 		  
 }
 
@@ -62,45 +62,28 @@ img { width: 100%;}
 		font-size: 10;
 	}
 	
-	.mediumWindow 	{ 
-		
-		background-color: #EBEBEB;
-		margin-left: 10%;
-		margin-right: 5%;
-		margin-top: 5%;
-		width: 80%;
-		overflow: auto;
-			}
 	
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:950px) {
 	
-	.mediumWindow 	{ 
-		
-		background-color: #EBEBEB;
-		margin-left: 10%;
-		margin-right: 5%;
-		margin-top: 5%;
-		width: 80%;
-		overflow: auto;
-		
-			}
+
 	
 	.mediumImage {
-		
-		  width: 100%;
-		  float:left;
-		  overflow: hidden;
+
+		width: 100%;
+		float:left;
+		overflow: hidden;
+		margin:0%;
 	}
 
 	.mediumText{
 		
-		width: 80%;
+		width: 100%;
 		float:left;
 		overflow: hidden;
 		margin:5%;
-		font-size: 11;
+		font-size: 10;
 	}
 	
 	
