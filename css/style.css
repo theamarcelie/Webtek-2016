@@ -6,14 +6,19 @@ body {
 	width: 100%;
 }
 
-footer {color:white; 
+footer {
+	
+	color:white; 
 	overflow: auto; 
 	background-color: #333333;
 }
 
-footer p {width: 30%;
-	  margin: 1% 5% 1% 5%;
-	  float: left;
+footer p {
+	
+	margin-top: 10%
+	width: 30%;
+	margin: 1% 5% 1% 5%;
+	float: left;
 }
 
 a{color: #FF8C69;}
