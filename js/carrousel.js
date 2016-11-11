@@ -3,7 +3,7 @@ var li_items;
 var li_number;
 var slider_width = 0;
 var image_width;
-var current = 0.2;
+var current = 0;
 var Nid;
 var imgP;
 var id; //global to allow click to manipulate
@@ -17,8 +17,7 @@ function init(){
 			image_width = li_items[i].childNodes[0].clientWidth;
 			slider_width += image_width;
 	}
-	
-	ul.style.width = parseInt(slider_width) + 'px';
+		ul.style.width = parseInt(slider_width) + 'px';
 	slider(ul);
 //calculates length of entire carrousel and sets the width of ul to it and sends ul to slider "width as a string eg "1234px"
 
@@ -53,7 +52,7 @@ function slider(){
 					imgP = setTimeout(slider, 5000); //time it pauses at new image
 				}
 				else{					
-					current = 0.2;				
+					current = 0;				
 					setTimeout(slider, 0);
 				}
 			}
@@ -85,7 +84,7 @@ function click(Nid){
 	console.log("event");
 	var str = Nid.slice(1);
 	var num = Number(str);
-	current = num+0.2;
+	current = num;
 	clearTimeout(imgP);	//turns off the slider and starts a new one at the indicated img
 	clearInterval(id);
 	slider();
