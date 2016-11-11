@@ -42,8 +42,7 @@ img { width: 100%;}
 		  display: inline-block;
 	
 		  overflow: hidden;
-		  background-image: "https://v.cdn.vine.co/r/avatars/5DD7029B481045881651618009088_11ed3f40284.4.7.jpg?versionId=nuCFYm8MnD0bLN70jUrercH8TQwTeThS" no - repeat center center;
-
+		  
 			}
 /* Using inline herer causes a gap (one space key Wide) so we use float */
 
