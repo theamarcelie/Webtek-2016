@@ -59,7 +59,7 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF8C69;
 }
 
-li.icon {
+li #salmon {
    width:30px;
    height:10px;
  }  
