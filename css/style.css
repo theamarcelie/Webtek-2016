@@ -151,9 +151,15 @@ img {
 @media screen and (max-width:1000px) {
 	
 	.body {
-		font-size: 200%;
+		font-size: 300%;
 	}
 	
+	.largeWindow {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	}
 
 	#peder, #project, #environment, #history, #salmonskin {
 
