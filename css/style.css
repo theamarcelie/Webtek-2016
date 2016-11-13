@@ -156,9 +156,13 @@ img {
 	
 	.largeWindow {
 	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
+	}
+	
+	.mediumText{
+		font-size: 300%;
 	}
 
 	#peder, #project, #environment, #history, #salmonskin {
