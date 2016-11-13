@@ -240,7 +240,7 @@ a {
 /* Set width = image width */
 #image-slider-container{ 
 	position: relative;
-	width: 1080px;
+	width: 1079px;
 	overflow: hidden; 
 	margin: auto;
 	z-index: -1;
@@ -259,6 +259,7 @@ a {
 	list-style: none;
 	left: 0;
 }
+/*
 .imgbtn {
     width: 25px;
     height: 52px;
@@ -273,9 +274,9 @@ a {
     left: 50%; 
 }
 
-/* text align here to center buttons */
+---text align here to center buttons--
 #button {text-align: center;}
-
+*/
 
 .smallImage:hover {
 	opacity:0.7;
