@@ -200,7 +200,7 @@ img {
 }
 
 /* Set width = image width */
-.image-slider-container{ 
+#image-slider-container{ 
 	position: relative;
 	width: 1080px;
 	background: black; 
