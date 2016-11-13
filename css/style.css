@@ -347,7 +347,7 @@ img {
 button {
     background-color: #EBEBEB;
     border: none;
-    color: white;
+    color: black;
     padding: 30px 30px;
     text-align: center;
     text-decoration: none;
@@ -358,5 +358,5 @@ button {
 }
 
 button:hover { 
-    background-color: yellow;
+    background-color: #333333;
 }
