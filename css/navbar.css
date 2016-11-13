@@ -59,6 +59,12 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF8C69;
 }
 
+li.icon {
+   width:30px;
+   height:10px;
+ }  
+
+
 li.dropdown {
     display: inline-block;
 }
@@ -100,9 +106,9 @@ første elementet i listan og ikonet synes */
 ul.list_navbar li.icon {display: none;}
 @media screen and (max-width:1000px) {
   ul.list_navbar li:not(:first-child) {display: none;}
-  ul.list_navbar li.icon {
-    max-width: 300%;;
-    height: 300%;
+  ul.list_navbar li.icon {   
+    width:300%;
+    height:300%;
     padding: 30px;
     float: right;
     display: inline-block;
