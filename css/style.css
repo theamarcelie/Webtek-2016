@@ -130,6 +130,12 @@ a {
 	
 }
 
+.faqText {
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 @media screen and (max-width:1400px) {
 	
 	.mediumText {
@@ -140,7 +146,7 @@ a {
 		font-size: 80%;
 	}
 	
-	.largeText {
+	.largeText, .faqText {
 		font-size: 80%;
 	}		
 }
@@ -168,11 +174,11 @@ a {
 	width: 99%;
 	}
 	
-	.mediumText, .largeText{
+	.mediumText, .largeText, .faqText{
 		font-size: 180%;
 	}
 	
-	.largeText {
+	.largeText, .faqText {
 		width: 90%;
 		padding-left: 5%;
 		padding-right: 5%;
