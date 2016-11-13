@@ -51,7 +51,7 @@ img {
 .mediumWindow 	{ 
 	
 	background-color: #EBEBEB;
-	margin-top: 5%;
+	margin-bottom: 5%;
 	width: 100%;
 	overflow: auto;
 
@@ -61,7 +61,7 @@ img {
 	
 	background-color: #EBEBEB;
 	margin-right: 5%;
-	margin-top: 5%;
+	margin-bottom: 5%;
 	width: 30%;
 	float: left;
 	overflow: auto;
@@ -71,7 +71,7 @@ img {
 .smallWindowMiddle  { 
 	
 	background-color: #EBEBEB;
-	margin-top: 5%;
+	margin-bottom: 5%;
 	width: 30%;
 	float: left;
 	overflow: auto;
@@ -82,7 +82,7 @@ img {
 	
 	background-color: #EBEBEB;
 	margin-left: 5%;
-	margin-top: 5%;
+	margin-bottom: 5%;
 	width: 30%;
 	float: right;
 	overflow: auto;
