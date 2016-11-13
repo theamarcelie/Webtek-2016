@@ -11,7 +11,7 @@ PURPOSE:  the css for the navigation bar
 
 body {
   font-family: Open Sans, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -109,7 +109,7 @@ ul.list_navbar li.icon {display: none;}
 /* Lager de andre elementene som underelement av ikonet, og plasserer på i en 
 horisontal linje */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 1000px) {
   ul.list_navbar.responsive {position: relative;}
   ul.list_navbar.responsive li.icon {
     position: absolute;
