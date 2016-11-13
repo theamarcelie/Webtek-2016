@@ -11,7 +11,6 @@ body {
 	background-color: #F5F5F5;
 	font-family: Open Sans, serif; 
 	width: 100%;
-	min-height: 100vh;
 	line-height: 1.2;
 
 }
@@ -23,6 +22,7 @@ footer {
 	background-color: #333333;
 }
 
+/* sørger for at det er nok content for at footer skal være på bunn av siden*/
 .content {
   min-height: calc(100vh - 300px);
 }
