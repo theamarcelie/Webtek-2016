@@ -101,8 +101,9 @@ ul.list_navbar li.icon {display: none;}
 @media screen and (max-width:1000px) {
   ul.list_navbar li:not(:first-child) {display: none;}
   ul.list_navbar li.icon {
-    font-size: 500%;
-    padding: 50px;
+    max-width: 300%;;
+    height: 300%;
+    padding: 30px;
     float: right;
     display: inline-block;
   }
