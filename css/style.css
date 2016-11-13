@@ -1,4 +1,4 @@
-@charset "UTF-8";
+"@charset "UTF-8";
 /*
 FILE NAME: style.css
 WRITTEN BY: Idun Ramstad, Thea Togstad, Christopher Iuel, Jørgen Molaug og Peder Holm
@@ -10,7 +10,7 @@ PURPOSE: style */
 
 body {
 	background-color: #F5F5F5;
-	font-family: Open Sans, serif; 
+	font-family: "Open Sans", serif; 
 	width: 100%;
 	line-height: 1.2;
 
