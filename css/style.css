@@ -175,6 +175,11 @@ img {
 		font-size: 180%;
 	}
 	
+	.largeText {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 
 	#peder, #project, #environment, #history, #salmonskin, #contact {
 
