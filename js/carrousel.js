@@ -1,5 +1,5 @@
 /*
-FILE NAME: contact.html
+FILE NAME: carrousel.js
 WRITTEN BY: Christopher Iuel & Idun Ramstad
 WHEN: October 2016
 PURPOSE: Displays a rotating set of images and buttons to jump to specific image.
