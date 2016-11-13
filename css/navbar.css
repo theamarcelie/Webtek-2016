@@ -114,8 +114,8 @@ ul.list_navbar li.icon {display: none;}
     display: inline-block;
   }
    .salmon {
-   width:300%;
-   height:300%;
+   width:100%;
+   height:100%;
  }  
 }
 /* Lager de andre elementene som underelement av ikonet, og plasserer på en 
