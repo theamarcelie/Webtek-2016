@@ -150,7 +150,7 @@ img {
 
 @media screen and (max-width:1000px) {
 	
-	.body {
+	body {
 		font-size: 300%;
 	}
 	
