@@ -4,7 +4,7 @@ var li_number;
 var slider_width = 0;
 var image_width;
 var current = 0.038; //start at 0.038 to account for margin
-8var Nid;
+var Nid;
 var imgP;
 var id; //global to allow click to manipulate
 
@@ -14,10 +14,10 @@ function init(){
 	li_items = ul.children;
 	li_number = li_items.length;
 	for (i = 0; i < li_number; i++){
-3			image_width = li_items[i].childNodes[0].clientWidth;
+			image_width = li_items[i].childNodes[0].clientWidth;
 			slider_width += image_width;
 	}
-		ul.style.width = parseInt(slider_width) + 'px';
+	ul.style.width = parseInt(slider_width) + 'px';
 	slider(ul);
 //calculates length of entire carrousel and sets the width of ul to it and sends ul to slider "width as a string eg "1234px"
 
