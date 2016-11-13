@@ -1,3 +1,10 @@
+/*
+FILE NAME: contact.html
+WRITTEN BY: Christopher Iuel & Idun Ramstad
+WHEN: October 2016
+PURPOSE: Displays a rotating set of images and buttons to jump to specific image.
+*/
+
 var ul;
 var li_items; 
 var li_number;
