@@ -31,7 +31,7 @@ for (i = 0; i < li_number-1; i++){				//-1 here because you dont want cloned las
 	btn.setAttribute("value","\u260C");
 	btn.setAttribute("class","imgbtn");		
 	btn.onclick = function(){click(this.id)};  //place function in function to pass arguments
-	document.getElementById("button").appendChild(btn);                    	// Append <button> to <body>
+	document.getElementById("image-slider-container").appendChild(btn);                    	// Append <button> to <body>
 }
 
 
