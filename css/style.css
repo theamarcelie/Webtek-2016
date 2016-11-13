@@ -18,6 +18,10 @@ footer {
 	background-color: #333333;
 }
 
+.content {
+  min-height: calc(100vh - 300px);
+}
+
 
 footer p {
 	
