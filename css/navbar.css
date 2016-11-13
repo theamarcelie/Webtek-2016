@@ -113,6 +113,10 @@ ul.list_navbar li.icon {display: none;}
     float: right;
     display: inline-block;
   }
+   .salmon {
+   width:300%;
+   height:300%;
+ }  
 }
 /* Lager de andre elementene som underelement av ikonet, og plasserer på en 
 horisontal linje */
