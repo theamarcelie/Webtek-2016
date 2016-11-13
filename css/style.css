@@ -201,7 +201,6 @@ img {
 }
 
 .smallImage{
-	float: top;
 	width: 100%;
 	transition: 0.3s;
 }
@@ -326,9 +325,7 @@ img {
 	transition: 0.3s;
 }
 
-.close:
-
-, .close:focus {
+.close:hover, .close:focus {
 	color: #bbb;
 	text-decoration: none;
 	cursor: pointer;
