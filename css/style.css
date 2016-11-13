@@ -341,7 +341,7 @@ img {
 
 /*faq*/
 button {
-    background-color: #EBEBEB; /* Green */
+    background-color: #EBEBEB;
     border: none;
     color: white;
     padding: 30px 30px;
@@ -349,5 +349,6 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-	width:100%;
+    width:100%;
+    outline:none;
 }
