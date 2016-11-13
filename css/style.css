@@ -53,6 +53,11 @@ a {
 	
 }
 
+img.largeWindow { 
+	width: 100%;
+			
+}
+
 .mediumWindow 	{ 
 	
 	background-color: #EBEBEB;
