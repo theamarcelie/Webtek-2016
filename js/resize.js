@@ -2,7 +2,7 @@
 FILE NAME: resize.js
 WRITTEN BY: Jørgen Molaug
 WHEN: October 2016
-PURPOSE: Get in contact */
+PURPOSE: resize small images */
 var modal = document.getElementById("the_modal");
 var img = document.getElementsByClassName("smallImage");
 /* This returns a list of the six images with class "smallImage"*/
