@@ -23,7 +23,7 @@ nav {
 aligns the list to the center of the navbar, 
 removes margins and padding */
 
-ul.list_navbar {
+.list_navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -94,14 +94,13 @@ li.dropdown {
     display: block;
 }
 
-/* Lager et unntak som sier at dersom siden er mindre enn 670 px, skal kun det 
+/* Lager et unntak som sier at dersom siden er mindre enn 1000 px, skal kun det 
 første elementet i listan og ikonet synes */
 
 ul.list_navbar li.icon {display: none;}
 @media screen and (max-width:1000px) {
   ul.list_navbar li:not(:first-child) {display: none;}
   ul.list_navbar li.icon {
-    font-size: 300%;
     float: right;
     display: inline-block;
   }
