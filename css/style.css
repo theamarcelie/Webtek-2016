@@ -53,10 +53,6 @@ a {
 	
 }
 
-img.largeWindow { 
-	width: 100%;
-			
-}
 
 .mediumWindow 	{ 
 	
@@ -214,6 +210,7 @@ img.largeWindow {
 .largeImage {
 	padding: 0;
 	vertical-align: top;
+	width: 100%;
 
 
 }
