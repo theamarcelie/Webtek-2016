@@ -3,8 +3,8 @@ var li_items;
 var li_number;
 var slider_width = 0;
 var image_width;
-var current = 0;
-var Nid;
+var current = 0.038; //start at 0.038 to account for margin
+8var Nid;
 var imgP;
 var id; //global to allow click to manipulate
 
@@ -14,15 +14,17 @@ function init(){
 	li_items = ul.children;
 	li_number = li_items.length;
 	for (i = 0; i < li_number; i++){
-			image_width = li_items[i].childNodes[0].clientWidth;
+3			image_width = li_items[i].childNodes[0].clientWidth;
 			slider_width += image_width;
 	}
 		ul.style.width = parseInt(slider_width) + 'px';
 	slider(ul);
 //calculates length of entire carrousel and sets the width of ul to it and sends ul to slider "width as a string eg "1234px"
 
+/*
 
-for (i = 0; i < li_number-1; i++){				//-1 here because you dont want cloned last image to be an option
+//Buttons removed due to user feedback
+0for (i = 0; i < li_number-1; i++){				//-1 here because you dont want cloned last image to be an option
 	
 	
 	var btn = document.createElement("input");        	// Create a <button> element
@@ -33,7 +35,7 @@ for (i = 0; i < li_number-1; i++){				//-1 here because you dont want cloned las
 	btn.onclick = function(){click(this.id)};  //place function in function to pass arguments
 	document.getElementById("image-slider-container").appendChild(btn);                    	// Append <button> to <body>
 }
-
+*/
 
 
 }
@@ -52,13 +54,13 @@ function slider(){
 					imgP = setTimeout(slider, 5000); //time it pauses at new image
 				}
 				else{					
-					current = 0;				
+					current = 0.038;				
 					setTimeout(slider, 0);
 				}
 			}
 		});
 
-//sends a list of arguments to animate 
+//sends a list of fresh arguments to animate 
 }
 
 //runs animate every "delay variable"
@@ -80,6 +82,8 @@ function animate(opts){
 }
 
 
+//Buttons removed due to user feedback
+/*
 function click(Nid){ 
 	console.log("event");
 	var str = Nid.slice(1);
@@ -90,4 +94,5 @@ function click(Nid){
 	slider();
 	
 }
+*/
 window.onload = init;
