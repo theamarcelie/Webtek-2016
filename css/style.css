@@ -256,6 +256,7 @@ a {
 	position: relative;
 	overflow: hidden;
 	left:0;
+	margin: 0;
 }
 #image_slider li{
 	position:relative;
