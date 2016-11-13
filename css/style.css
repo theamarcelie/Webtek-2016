@@ -196,13 +196,14 @@ img {
 	width: 100%;
 	transition: 0.3s;
 }
-/* text align here to center buttons */
+
 /* Set width = image width */
 .image-slider-container{ 
 	position: relative;
 	width: 1080px;
 	background: black; 
-	overflow: hidden; margin: auto;
+	overflow: hidden; 
+	margin: auto;
 
 }
 
@@ -226,7 +227,10 @@ img {
     border: none;
     outline:none;
     font-size: 3em;
-	
+    z-index: 1;
+    position: relative; 
+    bottom: 70px; 
+    left: 50%; 
 }
 
 /* text align here to center buttons */
