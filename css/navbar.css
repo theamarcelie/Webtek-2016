@@ -64,7 +64,9 @@ li a:hover, .dropdown:hover .dropbtn {
    height:10px;
  }  
 
-
+li.icon { 
+   font-size: 25;
+ }  
 li.dropdown {
     display: inline-block;
 }
