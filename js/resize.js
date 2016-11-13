@@ -15,17 +15,21 @@ for (i=0; i<6; i++){
 	/*If the right arrow button is pressed, simulate a click on the next image in line.
 	An exception is the final picture, that will link to the first one*/
 	
-	if (shownImage!="5"){
+	if (shownImage!="img5"){
+		shownImage = shownImage.slice(3,4);
 		var number = parseInt(shownImage);
 		number=number+1;
+		var imgId = "img";
 		var string = number.toString();
-		
+		string = imgId.concat(string);
+
 		document.getElementById(string).click();
 	}
 	else{
-		var number = parseInt(shownImage);
-		number=0;
+		var number=0;
+		var imgId = "img";
 		var string = number.toString();
+		string = imgId.concat(string);
 		
 		document.getElementById(string).click();
 	}
@@ -34,17 +38,21 @@ for (i=0; i<6; i++){
 	leftBtn.onclick = function(){
 	/*If the left arrow button is pressed, simulate a click on the previous image in line.
 	An exception is the first picture, that will link to the final one*/
-	if (shownImage!="0"){
+	if (shownImage!="img0"){
+		shownImage = shownImage.slice(3,4);
 		var number = parseInt(shownImage);
 		number=number-1;
+		var imgId = "img";
 		var string = number.toString();
-		
+		string = imgId.concat(string);
+
 		document.getElementById(string).click();
 	}
 	else{
-		var number = parseInt(shownImage);
-		number=5;
+		var number=5;
+		var imgId = "img";
 		var string = number.toString();
+		string = imgId.concat(string);
 		
 		document.getElementById(string).click();
 	}
