@@ -12,7 +12,7 @@ body {
 }
 
 footer {
-	
+	min-height: 150px;
 	color:white; 
 	overflow: auto; 
 	background-color: #333333;
